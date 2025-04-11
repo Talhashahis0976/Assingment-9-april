@@ -1,0 +1,115 @@
+/* Reset & Base */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background-color: rgba(188, 248, 24, 0.562);
+  }
+  
+  /* Hero Section */
+  header.hero {
+    background: url('https://img.freepik.com/premium-photo/highquality-streamer-setup-with-advanced-vr-equipm_1148322-83548.jpg?semt=ais_hybrid&w=740') no-repeat center center;
+    background-size: cover;
+    color: rgb(170, 14, 157);
+    padding: 100px 20px;
+    text-align: center;
+    color: rgb(245, 245, 245);
+    background-color: #2f3542;
+
+  }
+  .hero .btn {
+    background-color: #5347ff;
+    color: white;
+    padding: 10px 20px;
+    margin: 10px;
+    display: inline-block;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background 0.3s ease;
+  }
+  .hero .btn:hover {
+    background-color: #e84118;
+  }
+  .btn-secondary {
+    background-color: transparent;
+    border: 2px solid white;
+  }
+  
+  /* Section Styles */
+  section {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  h2 {
+    margin-bottom: 20px;
+    color: #2f3542;
+  }
+  
+  /* Features */
+  .feature-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+    font-size: 18px;
+  }
+  
+  /* Plans */
+  .plan-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+  }
+  .plan {
+    background: rgb(190, 221, 13);
+    border: 2px solid #ccc;
+    padding: 30px;
+    border-radius: 10px;
+    width: 250px;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+  }
+  .plan.popular {
+    border-color: #ff4757;
+  }
+  .plan h3 {
+    color: #3742fa;
+    margin-bottom: 10px;
+  }
+  .plan .btn {
+    margin-top: 15px;
+    background-color: #3742fa;
+    color: white;
+    padding: 10px 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background 0.3s ease;
+  }
+  .plan .btn:hover {
+    background-color: #2f3542;
+  }
+  
+  /* Contact */
+  .contact p {
+    margin: 10px 0;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #1799cc;
+    color: rgb(189, 15, 15);
+    text-align: center;
+    padding: 20px;
+  }
